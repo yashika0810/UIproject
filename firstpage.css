@@ -1,0 +1,130 @@
+.mainbox{
+	width:1350px;
+	height:700px;
+	float:left;
+	background-color:white;
+
+}
+.banner{
+	width:1350px;
+	height:100px;
+	float:left;
+	background-color:#a3c0c6;
+	
+}
+.content{
+	width:1350px;
+	height:600px;
+	float:left;
+	background-color:#dbe9ff;
+}
+.left{
+	width:230px;
+	height:600px;
+	float:left;
+	background-color:#dbe9ff;
+}
+.middle{
+	width:900px;
+	height:600px;
+	float:left;
+	background-color:#dbe9ff;
+	background-repeat:no-repeat;
+	background-image:url("floww.jpeg");
+	padding-left:100px;
+	
+
+	
+}
+.abc{
+	padding-left:233px;
+	
+}
+.right{
+	width:100px;
+	height:600px;
+	float:left;
+	background-color:#dbe9ff;
+}
+.line{
+	width:1350px;
+	height:50px;
+	float:left;
+	background-color:#67696d;
+
+	color:white;
+}
+.head{
+	text-align:left;
+	line-height:17px;
+	font-size:14px;
+	
+
+}
+.head2{
+	
+	text-align:right;
+}
+.a{
+	text-align:center;
+	
+}
+.b{
+
+	text-align:center;
+}
+.c{
+
+	text-align:center;
+}
+.d{
+
+	text-align:center;
+}
+.e{
+
+	text-align:center;
+}
+.f{
+	
+	text-align:center;
+}
+.g{
+
+	text-align:center;
+}
+.h{
+
+	text-align:center;
+}
+.sub{
+	font-size:17px;
+	
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

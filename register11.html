@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<title>Untitled Document</title>
+
+<link href="signup.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<form action="register1.php" method="post">
+<div class="mainbox">
+<div class="banner"><img class="abc" src="twig.jpeg" alt="HTML ICON" width="150px" height="96px"/></</div>
+<div class="content">
+<div class="box"><p class="heading">&nbsp Sign up </p>
+<input class="box0" name="firstname" type="text"  placeholder= "First name" required/>
+<input class="box1" name="lastname" type="text"  placeholder= "Last Name"/>
+<input class="box2" name="username" type="text"  placeholder= "Your Email Address" required/>
+<input class="box3" name="password" type="text"  placeholder= "Choose Password" required/>
+<input class="box5" name="confirmpassword" type="text"  placeholder= "Repeat Password" required/>
+
+
+<input class="box4" type="submit" value="Register"/>
+
+</div>
+</div>
+<div class="line"><p class="head">Copyright © 2018 Twig - The Flower Studio - All Rights Reserved.</p>
+<p class="head2">Powered by GoDaddy GoCentral Website Builder</p></div></div>
+
+
+</form>
+<div class="w3-bar w3-black">
+    <button class="w3-bar-item w3-button tablink w3-red" onclick="openCity(event,'London')">London</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Paris')">Paris</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Tokyo')">Tokyo</button>
+  </div>
+  
+  <div id="London" class="w3-container w3-border city">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+
+  <div id="Paris" class="w3-container w3-border city" style="display:none">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="Tokyo" class="w3-container w3-border city" style="display:none">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
+</script>
+
+
+</body>
+</html>
